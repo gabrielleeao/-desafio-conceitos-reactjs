@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  font: 14px sans-serif;
+  color: #333;
+}
+
+div {
+  width: 100%;
+  margin: 20px;
+}
+
+div li + li {
+  margin-top: 15px;
+}
+
+input {
+  margin: 10px;
+  padding: 10px 15px;
+}
+
+button {
+  background: #486bac;
+  color: #fff;
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#alert {
+  background: #ca4949;
+}
